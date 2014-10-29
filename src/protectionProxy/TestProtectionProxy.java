@@ -8,8 +8,13 @@ public class TestProtectionProxy {
 		
 		Car car = new ProxyCar(driver1);
 		Car car2 = new ProxyCar(driver2);
+		Car car3 = new ProxyCar(driver1);
+		Car car4 = new ProxyCar(driver2);
+		
 		
 		car.driveCar();
 		car2.driveCar();
+		car3.driveCar();
+		car4.driveCar();
 	}
 }
